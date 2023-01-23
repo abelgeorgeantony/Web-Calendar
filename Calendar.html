@@ -7,12 +7,16 @@
 </head>
 <body>
 
-<form>
-    <input type="text" id="YearInput" name="YearInput">
-</form>
+<div class="YearBoxdiv">
+    <input type="text" class="YearBox" id="YearInput" name="YearInput">
+</div>
 <br>
 
-<button onclick="Yearinput()" >Enter Year</button>
+
+
+<div class="MonthBoxdiv">
+    <input type="text" class="MonthBox" id="MonthBox" value="JANUARY" readonly=true>
+</div>
 
 <table class="monthtable" id="monthtable">
     <tr>
@@ -80,6 +84,8 @@
         <td></td>
     </tr>
 </table>
+
+<button onclick="Yearinput()" >Enter Year</button>
 
 </body>
 </html>

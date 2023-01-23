@@ -1,3 +1,25 @@
+.YearBoxdiv{
+    margin-top: 20px;
+    text-align: center;
+}
+.YearBox{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    font-size: 50px;
+}
+
+.MonthBoxdiv{
+    margin-top: 11px;
+    text-align: center;
+}
+.MonthBox{
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    font-size: 50px;
+}
+
 .monthtable,th,td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -11,6 +33,6 @@ td{
 .monthtable{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: auto;
 }

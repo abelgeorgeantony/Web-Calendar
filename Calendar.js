@@ -5,7 +5,7 @@ function Yearinput() {
     startingday = 0; year = 0; days = 0;
     if (document.getElementById("YearInput").value != "") {
         year = Number(document.getElementById("YearInput").value);
-        document.getElementById("YearInput").value = null;
+        //document.getElementById("YearInput").value = null;
         StartingDayFinder();
         console.log("starting day : " + startingday);
         dayswitcher();
