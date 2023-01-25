@@ -10,14 +10,49 @@
 }
 
 .MonthBoxdiv{
-    margin-top: 11px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 .MonthBox{
     text-align: center;
     height: 50px;
     width: 300px;
     font-size: 50px;
+    vertical-align: top;
+    
+}
+.leftmonthbutton{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 56px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.leftarrimg{
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+    transform: scaleX(-1);
+}
+.rightarrimg{
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+}
+.rightmonthbutton{
+    cursor: pointer;
+    margin-left: 50px;
+    height: 56px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
 }
 
 .monthtable,th,td{
